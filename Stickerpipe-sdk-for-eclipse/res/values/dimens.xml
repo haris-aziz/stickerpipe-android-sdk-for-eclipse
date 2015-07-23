@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_8">8dp</dimen>
+    <dimen name="material_16">16dp</dimen>
+    <dimen name="material_24">24dp</dimen>
+    <dimen name="material_32">32dp</dimen>
+    <dimen name="material_40">40dp</dimen>
+    <dimen name="material_48">48dp</dimen>
+    <dimen name="material_72">72dp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="sticker_tab_size">48dp</dimen>
+    <dimen name="sticker_tab_padding">12dp</dimen>
+    <dimen name="backspace_column_width">56dp</dimen>
+    <dimen name="sticker_item_size">160dp</dimen>
+
+</resources>

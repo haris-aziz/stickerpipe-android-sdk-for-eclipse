@@ -1,0 +1,6 @@
+<resources>
+    <string name="recently_empty">У нас есть чудесные стикеры!\nПрокрутите влево для выбора и кликните на понравившемся</string>
+    <string name="undo">Отменв</string>
+    <string name="package_removed">Коллекция удаленв</string>
+    <string name="collections">Коллекции</string>
+</resources>

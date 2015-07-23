@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5E7A87</color>
+    <color name="stickers_tab_bg">@color/primary</color>
+    <color name="stickers_tab_strip">#fff</color>
+    <color name="stickers_list_bg">@android:color/white</color>
+    <color name="stickers_tab_icons_filter">@android:color/white</color>
+    <color name="stickers_emoji">@android:color/black</color>
+    <color name="remove_icon">#616161</color>
+    <color name="reorder_icon">#9e9e9e</color>
+    <color name="primary_text">@android:color/black</color>
+    <color name="secondary_text">#616161</color>
+    <color name="list_item_pressed">#ffe1e1e1</color>
+    <color name="list_item_normal">#ffffffff</color>
+</resources>
