@@ -1,13 +1,15 @@
 ## Important
+<h3>**This version is no longer supported!**</h3>
+
 This project only for **Eclipse IDE** users, because Eclipse not support AAR libraries.  
 If you use Android Studio - follow [this integration instructions](https://github.com/908Inc/stickerpipe-chat-sample).  
 Try to migrate to Android Studio with [this tutorial](http://developer.android.com/sdk/installing/migrate.html) as soon as possible to have latest updates of Stickers SDK and more simple integration.
 
 ## About
-**StickerPipe** is a stickers SDK for Android platform. 
+**StickerPipe** is a stickers SDK for Android platform.
 This sample demonstrates how to add stickers to your chat with Eclipse IDE.
 
-## Instalation
+## Installation
 ### Import
 First of all, clone this repository. Then you need import Stickerpipe-sdk-for-eclipse, recyclerview and google-play-services_lib_v_21 to your workspace and add as a library dependency to your project.  
 To import use **File->Import->Exiting Android Code Into Workspace** and select source code of library project.  
@@ -23,13 +25,13 @@ Add following code to Manifest.xml file of your root project into \<Appication> 
 	android:name="vc908.stickerfactory.ui.activity.MoreActivity"
 	android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-<receiver 
+<receiver
 	android:name="vc908.stickerfactory.receiver.AnalyticsTaskReceiver" />
 
-<receiver 
+<receiver
 	android:name="vc908.stickerfactory.receiver.UpdatePacksTaskReceiver" />
 
-<receiver 
+<receiver
 	android:name="com.google.android.gms.analytics.AnalyticsReceiver"
 	android:enabled="true" >
 	<intent-filter>
@@ -37,7 +39,7 @@ Add following code to Manifest.xml file of your root project into \<Appication> 
 	</intent-filter>
 </receiver>
 
-<service 
+<service
 	android:name="com.google.android.gms.analytics.AnalyticsService"
 	android:enabled="true"
 	android:exported="false" />
